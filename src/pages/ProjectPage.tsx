@@ -7,9 +7,7 @@ export const ProjectPage = () => {
         <>
             <SEO title="Portfolio" />
             <Layout>
-                <div>
-                    <Projects />
-                </div>
+                <Projects />
             </Layout>
         </>
     );
