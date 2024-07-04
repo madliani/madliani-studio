@@ -17,7 +17,7 @@ export const Projects = () => {
                         imgSrc="https://raw.githubusercontent.com/madliani/snowfall-website/main/assets/icons/logo.png"
                         projectDescription="A delightful game where you can experience the magic of snowflakes with a simple click."
                         title="Snowfall Game"
-                        viewSite="https://snowfall-game.netlify.app"
+                        viewSite="https://snowfall-website.vercel.app"
                     />
                 </div>
             </div>
