@@ -5,10 +5,13 @@ import { Layout } from "../layouts/Layout";
 export const About = () => {
     return (
         <>
-            <SEO title="About" />
+            <SEO title="About us" />
             <Layout>
                 <div>
-                    <Info>
+                    <Info
+                        subtitle="Welcome to MADLIANI STUDIO!"
+                        title="About us"
+                    >
                         <p>
                             madliani is a visionary mobile game and app
                             development studio dedicated to crafting immersive
