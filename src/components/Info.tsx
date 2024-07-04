@@ -13,22 +13,20 @@ const Text = styled.div`
 
 export const Info = ({ children, subtitle, title }: Properties) => {
     return (
-        <div>
-            <div className="container">
-                <div className="row">
-                    <div className="col-12">
-                        <h1 className="section-title">
-                            <span className="main-color">{title}</span>
-                        </h1>
-                        <h2 className="mb-5">
-                            <span>{subtitle}</span>
-                        </h2>
-                    </div>
+        <div className="container">
+            <div className="row">
+                <div className="col-12">
+                    <h1 className="section-title">
+                        <span className="main-color">{title}</span>
+                    </h1>
+                    <h2 className="mb-5">
+                        <span>{subtitle}</span>
+                    </h2>
                 </div>
-                <div className="row text-start">
-                    <div className="col-md-6 about-section">
-                        <Text>{children}</Text>
-                    </div>
+            </div>
+            <div className="row text-start">
+                <div className="col-md-6 about-section">
+                    <Text>{children}</Text>
                 </div>
             </div>
         </div>
