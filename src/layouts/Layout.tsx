@@ -1,5 +1,6 @@
 import { ReactNode, useCallback } from "react";
 import { Particles } from "react-particles";
+import styled from "styled-components";
 import type { Engine, ISourceOptions } from "tsparticles-engine";
 import { loadLinksPreset } from "tsparticles-preset-links";
 import { Header } from "../components/Header";
@@ -7,6 +8,10 @@ import { Header } from "../components/Header";
 type Properties = {
     children: ReactNode;
 };
+
+const Main = styled.main`
+    z-index: 1;
+`
 
 const options: ISourceOptions = {
     detectRetina: true,
@@ -85,7 +90,7 @@ export const Layout = ({ children }: Properties) => {
         <>
             <Particles init={init} options={options} />
             <Header />
-            <main>{children}</main>
+            <Main>{children}</Main>
         </>
     );
 };
