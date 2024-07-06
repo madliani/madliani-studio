@@ -38,14 +38,11 @@ export const Banner = () => {
                 <Content>
                     <h1>
                         <img
-                            alt="madliani logo"
+                            alt="MADLIANI Studio logo"
                             src={MadlianiLogo}
                             width="192"
                         />
-                        <span className="main-color text-uppercase">
-                            MADLIANI
-                        </span>{" "}
-                        Studio
+                        <span className="main-color">MADLIANI</span> Studio
                     </h1>
                     <h6>
                         <Typewriter
