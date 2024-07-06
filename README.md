@@ -1,7 +1,7 @@
 # MADLIANI Studio Website
 
 <p align="center">
-    <img src="./assets/icons/apple-touch-icon.png" alt="madliani logo" />
+    <img src="./assets/icons/apple-touch-icon.png" alt="MADLIANI Studio logo" />
 
     MADLIANI Studio Website
 
