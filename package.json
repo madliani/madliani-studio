@@ -63,7 +63,6 @@
         "gh-pages": "^6.0.0",
         "husky": "^8.0.3",
         "lint-staged": "^14.0.1",
-        "pinst": "^3.0.0",
         "postcss": "^8.4.31",
         "postcss-styled-syntax": "^0.5.0",
         "prettier": "3.0.3",
@@ -112,11 +111,7 @@
         "dev": "vite",
         "format": "prettier --write './src/**/*.{ts,tsx}'",
         "lint": "stylelint --fix './src/**/*.{ts,tsx}' && eslint --fix './src/**/*.{ts,tsx}' && tsc --noEmit",
-        "postinstall": "husky install",
-        "postpack": "pinst --enable",
         "pre-commit": "lint-staged",
-        "prepack": "pinst --disable",
-        "prepare": "husky install",
         "preview": "vite preview"
     },
     "version": "1.0.0"
