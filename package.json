@@ -112,6 +112,7 @@
         "format": "prettier --write './src/**/*.{ts,tsx}'",
         "lint": "stylelint --fix './src/**/*.{ts,tsx}' && eslint --fix './src/**/*.{ts,tsx}' && tsc --noEmit",
         "pre-commit": "lint-staged",
+        "prepare": "husky",
         "preview": "vite preview"
     },
     "version": "1.0.0"
